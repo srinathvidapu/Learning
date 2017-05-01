@@ -3,6 +3,8 @@ package com.saae.mvpexamplenew;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.saae.mvpexamplenew.mainpresenter.MainPresenter;
+import com.saae.mvpexamplenew.mainpresenter.MainPresenterImpl;
 
 import javax.inject.Singleton;
 

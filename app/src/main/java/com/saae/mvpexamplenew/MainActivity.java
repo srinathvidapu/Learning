@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.ListViewCompat;
 import android.widget.TextView;
 
+import com.saae.mvpexamplenew.mainpresenter.MainPresenter;
+import com.saae.mvpexamplenew.model.Post;
+
 import java.util.List;
 
 import javax.inject.Inject;
@@ -28,9 +31,6 @@ public class MainActivity extends AppCompatActivity implements MainView {
          ((MyApplication) getApplication()).getNetComponent().inject(this);
 
         listViewCompat= (ListViewCompat) findViewById(R.id.lv);
-
-
-
         mainPresenter.retrive(this);
 
         //Create textview and findViewByID

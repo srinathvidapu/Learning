@@ -1,5 +1,7 @@
 package com.saae.mvpexamplenew;
 
+import com.saae.mvpexamplenew.model.Post;
+
 import java.util.List;
 
 import retrofit2.Call;

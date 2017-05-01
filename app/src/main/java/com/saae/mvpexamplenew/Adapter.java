@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.saae.mvpexamplenew.model.Post;
+
 import java.util.List;
 
 /**
@@ -48,10 +50,10 @@ public class Adapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
 
 
-        View v= LayoutInflater.from(context).inflate(android.R.layout.simple_list_item_1,null);
+        View v= LayoutInflater.from(context).inflate(R.layout.simple_list_item_1,null);
 
 
-        TextView tv= (TextView) v.findViewById(android.R.id.text1);
+        TextView tv= (TextView) v.findViewById(R.id.tv);
 
 
         tv.setText(posts.get(i).getBody());

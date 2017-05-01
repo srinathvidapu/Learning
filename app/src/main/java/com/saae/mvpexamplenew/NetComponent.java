@@ -1,5 +1,7 @@
 package com.saae.mvpexamplenew;
 
+import com.saae.mvpexamplenew.maininteractor.ModelImpl;
+
 import javax.inject.Singleton;
 
 import dagger.Component;

@@ -1,8 +1,8 @@
 package com.saae.mvpexamplenew;
 
-import java.util.List;
+import com.saae.mvpexamplenew.model.Post;
 
-import retrofit2.Retrofit;
+import java.util.List;
 
 /**
  * Created by Saae on 4/9/2017.
